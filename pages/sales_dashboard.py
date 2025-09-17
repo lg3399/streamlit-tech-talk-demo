@@ -5,10 +5,8 @@ import pandas as pd  # pip install pandas
 # CONFIGS
 YEAR = 2023
 PREVIOUS_YEAR = 2022
-CITIES = ["Bangalore", "Chennai", "Hyderabad"]
-DATA_URL = "https://github.com/lg3399/streamlit-tech-talk-demo/blob/main/store_sales_2022-2023.csv"
-
-# https://github.com/lg3399/streamlit-tech-talk-demo/blob/main/store_sales_2022-2023.csv
+CITIES = ["Tokyo", "Yokohama", "Osaka"]
+DATA_URL = "https://raw.githubusercontent.com/Sven-Bo/datasets/master/store_sales_2022-2023.csv"
 
 
 st.title(f"Sales Dashboard", anchor=False)
