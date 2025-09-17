@@ -5,7 +5,7 @@ import pandas as pd  # pip install pandas
 # CONFIGS
 YEAR = 2023
 PREVIOUS_YEAR = 2022
-CITIES = ["Tokyo", "Yokohama", "Osaka"]
+CITIES = ["Bangalore", "Chennai", "Hyderabad"]
 DATA_URL = "https://github.com/lg3399/streamlit-tech-talk-demo/blob/main/store_sales_2022-2023.csv"
 
 # https://github.com/lg3399/streamlit-tech-talk-demo/blob/main/store_sales_2022-2023.csv
