@@ -3,8 +3,13 @@ import streamlit as st
 # page setup
 hide_st_style ="""
                 <style>
-                #MainMenu {visibility: hidden;}
-                footer {visibility: hidden;}
+                    #MainMenu {visibility: hidden;}
+                    footer {visibility: hidden;}
+                    padding-top: 1rem;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    padding-bottom: 1rem;
+                    max-width: 100% !important;
                 </style>
                 """
 st.markdown(hide_st_style, unsafe_allow_html=True)
@@ -37,7 +42,6 @@ pg = st.navigation(
 
 # logo
 st.logo("assets/trust-the-idea-logo.png")
-st.sidebar.text("Built using Streamlit")
 # run nav
 
 pg.run()
